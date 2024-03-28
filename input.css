@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+#div1 {
+  background-image: url("./img1/div1.img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -10;
+}
+#div3 {
+  background-image: url("../src/img1/div5.img1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#ldiv {
+  background-image: url("./img1/last.img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+#span1{
+  margin-top: 20%;
+}
+
+button {
+  color: yellow;
+}
+
+#img2 {
+  width: 200px;
+  height: auto;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#img3 {
+  width: 200px;
+  height: auto;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: -10px;
+}
+
+#img {
+  width: 60px;
+  height: 60px;
+  margin-left: 19%;
+  margin-top: 10%;
+}
+#foot{
+  margin-top: 70px;
+  align-items: center;
+}
